@@ -2,7 +2,7 @@
 
 ## Build a Survey Form
 
-## User Story :
+## User Story
 
 1. I can see a title with id="title" in H1 sized text.
 
