@@ -110,6 +110,7 @@ body {
 .fieldset {
     border: none;
     display: flex;
+    -moz-column-gap: 20px;
     column-gap: 20px;
     align-items: center;
     margin-bottom: 30px;
@@ -119,6 +120,7 @@ body {
 .fieldset label {
     display: flex;
     align-items: center;
+    -moz-column-gap: 5px;
     column-gap: 5px;
     font-size: var(--med);
     cursor: pointer;
@@ -189,6 +191,7 @@ footer {
 }
 
 footer a {
+    -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
     color: black;
     transition: font-weight 0.2s ease;
